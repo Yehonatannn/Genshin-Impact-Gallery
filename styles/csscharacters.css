@@ -1,0 +1,478 @@
+*,
+*:before,
+*:after{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+#sec1{
+	background-color: rgba(17,17,17,0.75);
+	height: 100px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-right: 50px;
+}
+#sec2{
+	height: 2080px;
+	width: 100%;
+	justify-content: center;
+	margin-left: atuo;
+	margin-right: auto;
+}
+#sec3{
+	height: 2080px;
+	width: 100%;
+	justify-content: center;
+	margin-left: atuo;
+	margin-right: auto;
+}
+#sec4{
+	background-color: rgba(17,17,17,0.75);
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	margin-top: 8.5%;
+}
+#sec{
+	width: 100%;
+	height: 50px;
+	background-color: #2C3333;
+	margin-top: 120px;
+	padding-left: 60px;
+}
+#sec5{
+	width: 100%;
+	height: 50px;
+	background-color: #2C3333;
+	margin-top: 120px;
+	padding-left: 60px;
+}
+#star{
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+header img{
+	display: block;
+	height: 80px;
+	width: 220px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+h1{
+	font-size: 60px;
+	float: left;
+	color: white;
+	margin: 10px 0px 10px 0px;
+}
+#head1{
+	font-size: 60px;
+	float: left;
+	color: white;
+	font-style: italic;
+	margin: 15px 0px 10px 10px;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-family: Noto, sans-serif;	
+}
+#fli{
+	padding-left: 50px;
+}
+.right{
+	float: right;
+	padding: 43px 10px 0px 10px;
+}
+li{
+	display: block;
+	float: left;
+	padding: 43px 0px 0px 10px;
+	color: white;
+	font-weight: bold;
+}
+li a{
+	position: relative;
+}
+header img:hover{
+	opacity: 0.5;
+	color: #B1C7EF;
+}
+li a:after{
+	content: "";
+	position: absolute;
+	background-color: #576CBC;
+	height: 5px;
+	width: 0;
+	left: 0;
+	bottom: -40px;
+	transition: 0.3s;
+}
+li a:hover:after{
+	width: 100%;
+}
+li a:link{
+	text-decoration: none;
+	color: white;
+}
+li a:visited{
+	text-decoration: none;
+	color: #B1C7EF;
+}
+li a:hover{
+	text-decoration: none;
+	color: #576CBC;
+}
+footer{
+	padding-top: 50px;
+}
+footer p{
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	font-family: Noto, sans-serif;
+}
+footer img{
+	margin: 20px 0px 20px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 55px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+}
+.row1 img{
+	height: 300px;
+	width: 240px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 80px;
+	border-radius: 10px;
+	transition: 0.5s;
+	float: left;
+}
+.row2 img{
+	height: 300px;
+	width: 240px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 80px;
+	border-radius: 10px;
+	transition: 0.5s;
+	float: left;
+}
+.row3 img{
+	height: 300px;
+	width: 240px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 80px;
+	border-radius: 10px;
+	transition: 0.5s;
+	float: left;
+}
+.row4 img{
+	height: 300px;
+	width: 240px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 80px;
+	border-radius: 10px;
+	transition: 0.5s;
+	float: left;
+}
+.row5 img{
+	height: 300px;
+	width: 240px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 80px;
+	border-radius: 10px;
+	transition: 0.5s;
+	float: left;
+}
+.row1{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 430px;
+}
+.row2{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 430px;
+}
+.row3{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 430px;
+}
+.row4{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 430px;
+}
+.row5{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 430px;
+}
+.card{
+	display: flex;
+	justify-content: center;	
+}
+.text p{
+	font-size: 15px;
+	text-align: center;
+	margin: 10px 0px 20px 0px;
+	padding-bottom: 10px;
+	font-family: Noto, sans-serif;
+}
+.text #sk{
+	font-size: 15px;
+	text-align: center;
+	margin: 10px 0px 20px 0px;
+	padding-bottom: 10px;
+	font-family: Noto, sans-serif;
+}
+.text #skk{
+	font-size: 15px;
+	text-align: center;
+	margin: 10px 0px 20px 0px;
+	padding-bottom: 10px;
+	font-family: Noto, sans-serif;
+}
+.card:hover{
+	cursor: pointer;
+}
+.card:hover img{
+	transform: scale(1.5);
+}
+.card:hover .text p{
+	font-size: 40px;
+}
+.card:hover .text #sk{
+	font-size: 30px;
+	margin-top: 20px;
+}
+.card:hover .text #skk{
+	font-size: 25px;
+	margin-top: 20px;
+}
+.row1 .text{
+	height: 50px;
+	width: 240px;
+	bottom: 395px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.row1 .card:hover .text{
+	bottom: 320px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+.row2 .text{
+	height: 50px;
+	width: 240px;
+	bottom: -35px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.row2 .card:hover .text{
+	bottom: -110px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+.row3 .text{
+	height: 50px;
+	width: 240px;
+	bottom: -465px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.row3 .card:hover .text{
+	bottom: -540px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+.row4 .text{
+	height: 50px;
+	width: 240px;
+	bottom: -895px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.row4 .card:hover .text{
+	bottom: -970px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+.row5 .text{
+	height: 50px;
+	width: 240px;
+	bottom: -1325px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.row5 .card:hover .text{
+	bottom: -1400px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+.sec3 .row1 .text{
+	height: 50px;
+	width: 240px;
+	bottom: -1855px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.sec3 .row1 .card:hover .text{
+	bottom: -1930px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+.sec3 .row2 .text{
+	height: 50px;
+	width: 240px;
+	bottom: -2285px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.sec3 .row2 .card:hover .text{
+	bottom: -2360px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+.sec3 .row3 .text{
+	height: 50px;
+	width: 240px;
+	bottom: -2715px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.sec3 .row3 .card:hover .text{
+	bottom: -2790px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+.sec3 .row4 .text{
+	height: 50px;
+	width: 240px;
+	bottom: -3145px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.sec3 .row4 .card:hover .text{
+	bottom: -3220px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+.sec3 .row5 .text{
+	height: 50px;
+	width: 240px;
+	bottom: -3575px;
+	box-sizing: border-box;
+	position: absolute;
+	color: white;
+	transition: 0.5s;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.sec3 .row5 .card:hover .text{
+	bottom: -3650px;
+	height: 100px;
+	width: 360px;
+	background-color: rgba(17,17,17,0.75);
+	padding-top: 15px;
+}
+
